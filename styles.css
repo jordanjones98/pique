@@ -1,3 +1,24 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 .background{
   display: table;
   width: 100%;
@@ -9,12 +30,22 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: -1;
-}
-.page{
   font-family: 'Raleway';
 }
+
 .welcome{
-  margin-top: 60%;
+  padding-top: 40%;
   color: white;
   text-align: center;
+  padding-left: 300px;
+}
+.typed{
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: white;
+  padding-top: 150px;
+  height: 655px;
 }
