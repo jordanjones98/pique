@@ -3,31 +3,39 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link href="http://fonts.googleapis.com/css?family=Raleway:100&v1" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="font-awesome-animation.css">
-<title>Jordan Jones</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/typed.js"></script>
 </head>
-<body class="background">
+<body>
 
 <script>
     $(function(){
         $(".element").typed({
-            strings: ["Welcome to Excitement", "Welcome to Photos Reimagined", "Welcome to WHAT JANA", "Welcome to Pique"],
-            typeSpeed: 0,
+            strings: ["Excitement", "Photos Reimagined", "A Bold New Idea", "Pique"],
+            typeSpeed: 2,
             // show cursor
             showCursor: true,
             // character for cursor
             cursorChar: "|",
             typeSpeed: 40,
-        });
-    });
-</script>
-<div class="imbackground col-12">
 
-  <div class="typed" align="center">
-    <span class="element"></span>
+        });
+
+    });
+
+</script>
+
+  <div class="typed">
+    Welcome To <span class="element"></span>
+  </div>
+
+  <div class="sub">
+    <form method="POST" action="php/subscription.php">
+    <p>Name: <input type="text" name="Name" size="20"></p>
+    <p>Email: <input type="text" name="Email" size="20"></p>
+    <p><input type="submit" value="Submit" name="Submit"></p>
+    </form>
+
   </div>
 
 
