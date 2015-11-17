@@ -31,6 +31,7 @@ body{
   background-repeat: no-repeat;
   font-family: 'Raleway';
   text-align: center;
+  background-color: grey;
 }
 .typed{
   font-size: 60px;
@@ -40,5 +41,8 @@ body{
   line-height: 26.4px;
   color: white;
   padding-top: 10%;
-
+}
+.signup{
+  font-family: 'Raleway';
+  text-align: center;
 }
